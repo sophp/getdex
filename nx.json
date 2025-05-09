@@ -2,34 +2,22 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "setup": {
-      "dependsOn": [
-        "^setup"
-      ]
+      "dependsOn": ["^setup"]
     },
     "build": {
-      "dependsOn": [
-        "^build"
-      ]
+      "dependsOn": ["^build"]
     },
     "format": {
-      "dependsOn": [
-        "^format"
-      ]
+      "dependsOn": ["^format"]
     },
     "start": {
-      "dependsOn": [
-        "^start"
-      ]
+      "dependsOn": ["^start"]
     },
     "start:dev": {
-      "dependsOn": [
-        "^start:dev"
-      ]
+      "dependsOn": ["^start:dev"]
     },
     "dev": {
-      "dependsOn": [
-        "^dev"
-      ]
+      "dependsOn": ["^dev"]
     }
   },
   "plugins": [
